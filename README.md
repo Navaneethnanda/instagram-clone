@@ -1,34 +1,87 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+**README.md**
+
+# Instagram Clone - Inspired by [https://www.youtube.com/watch?v=a6Xs2Ir40OI](https://www.youtube.com/watch?v=a6Xs2Ir40OI)
+
+This repository contains an Instagram clone application inspired by the tutorial video [https://www.youtube.com/watch?v=a6Xs2Ir40OI](https://www.youtube.com/watch?v=a6Xs2Ir40OI).
+
+## Description
+
+This Instagram clone is built using Next.js, React, and other technologies to replicate the core features and design of the Instagram web application. It includes functionalities such as posting images, liking, commenting, and following other users.
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed on your machine:
+
+- Node.js (v12 or higher)
+- npm (Node Package Manager)
 
 ## Getting Started
 
-First, run the development server:
+To run this Instagram clone locally, follow these steps:
+
+1. Clone this repository to your local machine:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+git clone <repository_url>
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Change into the project directory:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+cd instagram-clone
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Install the project dependencies:
 
-## Learn More
+```bash
+npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+4. Set up environment variables:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Before running the app, make sure to set up the required environment variables. Create a `.env` file in the root of the project and add the necessary variables. You can use the `.env.example` file as a template.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Available Scripts
 
-## Deploy on Vercel
+In the project directory, you can run the following commands:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### `npm run dev`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page will automatically reload if you make changes to the code.
+
+### `npm run build`
+
+Builds the app for production use. The output will be generated in the `.next` folder.
+
+### `npm start`
+
+Starts the app in production mode. Make sure to run `npm run build` before using this command.
+
+### `npm run test`
+
+Launches the test runner to execute unit tests.
+
+### `npm run lint`
+
+Runs the linting process to analyze and identify issues in the code.
+
+## Folder Structure
+
+The project follows the conventional Next.js folder structure. Here's an overview of the important directories:
+
+- `components/`: Contains reusable React components.
+- `pages/`: Contains the pages for the application. Each file in this directory creates a corresponding route.
+- `public/`: Contains static assets like images, fonts, etc.
+- `styles/`: Contains global CSS styles.
+
+## Contributing
+
+If you would like to contribute to this project, please feel free to submit a pull request. We welcome any improvements or bug fixes!
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Feel free to modify this README file to suit your specific project's needs. Happy coding and building your Instagram clone! 😄
